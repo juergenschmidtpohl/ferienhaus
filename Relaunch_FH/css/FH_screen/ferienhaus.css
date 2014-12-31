@@ -1,0 +1,235 @@
+/* 
+
+*  Ferienhaus.css
+
+Eigene &Auml;nderungen 
+Begonnen: 17.06.2011
+-dt
+
+*/
+
+a, a:link, a:hover, a:visited { text-decoration: none;}
+
+  .page { padding: 8px;
+          background-color: #8285AE; }
+
+/* identische H&ouml;he, flackert nicht 
+ Hintergrund f&uuml;r 
+*/
+#main {
+        background-color: #FDF9D4; /* f&uuml;r die gasamte Spalte #col1 transparent lassen */
+        padding-top:15px;  /* in dieser Breite scheint der Hintergrund durch. Erscheint als Rahmen um col1/3 */
+        }
+.page {
+      }
+      
+      
+/* weg is weg */
+.hidden {
+          visibility: hidden;
+        } /* hidden */
+        
+.winzhidden {
+          visibility: hidden;
+          width: 1px:
+          height: 1px;
+        } /* winzhidden */  
+
+#distanz { margin_top:10px; }  /* kleiner Abstand */        
+        
+#header {
+          height: 70px;
+          margin top:2px;
+          background-color: #8285AE; /* Hintergrund page vorher  #ABB5D3; /* Himmel vom Kastellbild */ 
+          background-image: url(../../Bilder/HeaderGraphik04.jpg);
+          background-repeat:no-repeat;
+          background-position:0px 0px;
+          }
+#topnav,
+#topnav a {
+          color:black;
+          font-weight:bolder;
+          font-size:16px;
+          background-color:#0000;
+          }
+          
+/* linke Spalte Menue */
+/* Liste id="wohnungsliste" class="rundgang" */          
+
+/* Test senkrechte 
+
+#col1_content {
+          width:90%;
+          background-color: #FDF9D4; 
+          height:500px;
+          }
+*/
+#col1 {   /*
+          background-color: #FDF9D4; Transparent lassen !!! 
+          */
+          }
+  #wohnungsliste {}
+  .rundgang {}
+  
+  #bilderrahmen{ 
+  }
+            
+  .minibild {
+          margin-top:300px;
+                }
+  
+  
+/* Rechte Spalte Inhalt, Bilder, etc... */
+#col3 {
+  /*
+          background-color: #FDF9D4; /* #FDF9D4 */ 
+          */
+          margin: 1px;
+          border-left: 1px #2A2F71 solid;  /* Spaltentrenner */
+      }
+      
+#col3_content { padding:10px 20px 10px 10px; }
+
+   #graphikbereich {   
+ /*  .gallery { /*border:3px solid #FFCC99;*/
+              text-align:center;
+              background-color: #FDF9D4;
+              padding:0px;
+              margin:0px;
+            }         
+            
+   .gallery table {
+      width:90%; /* erledigt die Hoppelei bei unterschiedlichen Bildzahlen */
+      text-align:center;
+   }
+    
+   .gallery .bigview {
+                        height:350px;
+                        width:98%;
+                        text-align:top;
+                     }
+   .gallery .thumbs {
+                      height: 100px;
+                      width:98%;
+                      text-align:top;
+                    }
+    .beschreibung {
+                    margin-top:5px;
+                    margin-bottom:5px;
+                    font-family:Verdana,Helvetica,sans-serif;
+                    font-size:12px;
+                    font-weight:600;
+                  }
+
+                  
+.LeftPic {
+  float: left;
+  margin-right: 20px;
+  margin-bottom:10px;
+}
+
+
+.RightPic {
+  float: right;
+  margin-left: 20px;
+  margin-bottom:10px;
+}
+
+.cont_beschreibung {
+    padding-top:0px;
+    padding-bottom:0px;
+}
+
+#footer {
+          background-color: #BCB893;
+          }
+
+          
+/* Klassen der Graphik */          
+
+/* Kontaktformular */
+
+#fh_kontaktform_wrapper {
+  margin: 0px 0px 0px 50px;
+}
+
+.fh_kontaktitem {
+  margin:8px 0px 5px 0px;
+}
+  
+.fh_kontaktlabel {
+  font-weight: bold;
+  width: 100px;
+  margin-bottom: 2px;
+}
+
+.fh_kontakt_input {
+}
+
+.nosee { display:none; }
+
+/* Modul Routenfinder */
+.inputbox{
+          width:148px;
+          height:19px;
+          line-height:19px;
+          margin-top:1px;
+          margin-bottom:3px;
+          overflow:hidden;
+          }    
+
+    
+.moduletableroutenplanung {
+  margin-top:40px;
+}    
+    
+.moduletableroutenplanung form {
+
+  margin-left:22px; 
+  padding-top:5px;   
+  padding-left:5px;  
+  padding-bottom:5px;   
+           width:130px !important;     
+//  margin-top: -37px;
+  margin-top: -5px;
+  border-left:1px solid #9a0802 !important; 
+  border-right:1px solid #9a0802 !important; 
+  border-bottom:1px solid #9a0802 !important; 
+
+}
+ .moduletableroutenplanung form input{
+            width:120px !important;  
+           }
+           
+.moduletableroutenplanung h3
+{
+    background-color: #6A6C83;
+    margin-left:18px;
+    padding-top:8px !important;
+    height:25px;
+    width:135px;
+    color:#ffffff;
+    padding-left:10px;
+  
+}
+
+#fh_kontaktform_wrapper {
+  position: relative;
+  width: 100%;
+  height: auto;
+  margin: 0px auto;
+}    
+
+#fh_kontaktform_response {
+  position: relative;
+  width: 500px;
+  height: auto;
+  margin: 0px auto;
+}
+
+#fh_kontaktform_response p {
+  text-align: center;
+  font-size: 14px;
+  font-weight: bold;
+  
+}
